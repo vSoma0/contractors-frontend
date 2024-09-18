@@ -8,7 +8,7 @@ load_dotenv()
 AUTH_TOKEN = os.getenv('AUTH_TOKEN')
 
 # URL for the backend API
-url = "http://localhost:8000/query"
+url = "https://contractors-backend.vercel.app/query"
     
 def main():
     st.title("💬 Chatbot")
